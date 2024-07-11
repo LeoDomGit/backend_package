@@ -1,0 +1,30 @@
+{
+    "name": "leo/backend_packages",
+    "description": "Backend Packages Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LeoDomGit",
+            "email": "leodomsolar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leo\\Bills\\Providers\\BillsServiceProvider",
+                "Leo\\Brands\\Providers\\BrandsServiceProvider",
+                "Leo\\Carts\\Providers\\CartsServiceProvider",
+                "Leo\\Categories\\Providers\\CategoriesServiceProvider",
+                "Leo\\Customers\\Providers\\CustomersServiceProvider",
+                "Leo\\Permissions\\Providers\\PermissionsServiceProvider",
+                "Leo\\Products\\Providers\\ProductsServiceProvider",
+                "Leo\\Roles\\Providers\\RolesServiceProvider",
+                "Leo\\Slides\\Providers\\SlidesServiceProvider",
+                "Leo\\Users\\Providers\\UserServiceProvider"
+            ]
+        }
+    }
+}
